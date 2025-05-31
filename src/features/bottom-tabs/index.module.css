@@ -1,0 +1,33 @@
+.container {
+  margin-top: auto;
+}
+
+.iconsContainer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+}
+
+.divider {
+  background: gray;
+  height: 1.5px;
+  width: 100vw;
+  opacity: 0.3;
+}
+
+.icon {
+  height: 52px;
+  max-width: 52px;
+  filter: invert(82%) sepia(2%) saturate(9%) hue-rotate(6deg) brightness(106%)
+    contrast(86%);
+  cursor: pointer;
+}
+
+.icon.active {
+  filter: unset;
+}
+
+.icon.plus {
+  /* height: 62px; */
+}

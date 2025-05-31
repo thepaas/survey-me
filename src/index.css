@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'GlacialIndifference', sans-serif;
+}
+
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url('./assets/fonts/glacial-indifference/GlacialIndifference-Regular.otf')
+    format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'GlacialIndifference';
+  src: url('./assets/fonts/glacial-indifference/GlacialIndifference-Bold.otf')
+    format('opentype');
+  font-weight: bold;
+}
